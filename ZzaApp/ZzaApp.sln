@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZzaServices", "ZzaServices\ZzaServices.csproj", "{53626451-81EA-4101-BE2C-1C4FAA325B06}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zza.Entities", "Zza.Entities\Zza.Entities.csproj", "{EEDD9EF1-0274-4E89-A317-7DAE6D2F3D24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zza.Data", "Zza.Data\Zza.Data.csproj", "{A1D89639-8614-4F63-AD6D-5AF765B43F27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{53626451-81EA-4101-BE2C-1C4FAA325B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53626451-81EA-4101-BE2C-1C4FAA325B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53626451-81EA-4101-BE2C-1C4FAA325B06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEDD9EF1-0274-4E89-A317-7DAE6D2F3D24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEDD9EF1-0274-4E89-A317-7DAE6D2F3D24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEDD9EF1-0274-4E89-A317-7DAE6D2F3D24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEDD9EF1-0274-4E89-A317-7DAE6D2F3D24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1D89639-8614-4F63-AD6D-5AF765B43F27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1D89639-8614-4F63-AD6D-5AF765B43F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1D89639-8614-4F63-AD6D-5AF765B43F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1D89639-8614-4F63-AD6D-5AF765B43F27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
