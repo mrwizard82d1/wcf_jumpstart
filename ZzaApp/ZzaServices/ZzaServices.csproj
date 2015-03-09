@@ -33,8 +33,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.2\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.2\lib\net40\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Runtime.Serialization" />
@@ -45,13 +52,19 @@
   <ItemGroup>
     <Compile Include="IZzaServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ZzaService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Zza.Data\Zza.Data.csproj">
+      <Project>{A1D89639-8614-4F63-AD6D-5AF765B43F27}</Project>
+      <Name>Zza.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Zza.Entities\Zza.Entities.csproj">
       <Project>{EEDD9EF1-0274-4E89-A317-7DAE6D2F3D24}</Project>
       <Name>Zza.Entities</Name>
