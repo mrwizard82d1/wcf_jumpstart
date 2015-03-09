@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.ServiceModel;
 
 namespace ZzaServices
 {
-    // Used public for hosting
+    // Make interface public for hosting. However, visibility is ignored  
+    // for a service.
     [ServiceContract]
     public interface IZzaServices
     {
