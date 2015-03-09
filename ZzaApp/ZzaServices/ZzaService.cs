@@ -7,6 +7,7 @@ using Zza.Entities;
 
 namespace ZzaServices
 {
+    // Creates a service every time it is called from a client.
     [ServiceBehavior(InstanceContextMode = InstanceContextMode.PerCall)]
     class ZzaService : IZzaServices, IDisposable
     {
