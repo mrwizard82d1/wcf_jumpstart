@@ -5,7 +5,7 @@ using System.ServiceModel;
 using Zza.Data;
 using Zza.Entities;
 
-namespace ZzaServices
+namespace Zza.Services
 {
     // Creates a service every time it is called from a client.
     [ServiceBehavior(InstanceContextMode = InstanceContextMode.PerCall)]

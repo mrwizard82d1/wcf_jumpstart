@@ -2,7 +2,7 @@
 using System.ServiceModel;
 using Zza.Entities;
 
-namespace ZzaServices
+namespace Zza.Services
 {
     // Make interface public for hosting. However, visibility is ignored  
     // for a service.
