@@ -9,7 +9,7 @@ namespace Zza.Services
 {
     // Creates a service every time it is called from a client.
     [ServiceBehavior(InstanceContextMode = InstanceContextMode.PerCall)]
-    class ZzaService : IZzaServices, IDisposable
+    public class ZzaService : IZzaServices, IDisposable
     {
         readonly ZzaDbContext _context = new ZzaDbContext();
 
