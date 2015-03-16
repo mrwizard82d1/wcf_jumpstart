@@ -9,7 +9,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zza.Services", "Zza.Service
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zza.SelfHost", "Zza.SelfHost\Zza.SelfHost.csproj", "{74DE40F8-CC69-462D-B1D5-6FEEDDFDBBF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zza.Client", "Zza.Client\Zza.Client.csproj", "{ACF2E3EB-BD50-4492-BA55-4EC84FDDE834}"
+	ProjectSection(ProjectDependencies) = postProject
+		{53626451-81EA-4101-BE2C-1C4FAA325B06} = {53626451-81EA-4101-BE2C-1C4FAA325B06}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B65FF2FD-141B-4C16-A6FF-1E9DA68CB74C}"
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ZzaApp.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -59,8 +69,21 @@ Global
 		{74DE40F8-CC69-462D-B1D5-6FEEDDFDBBF6}.Release|Mixed Platforms.Build.0 = Release|x86
 		{74DE40F8-CC69-462D-B1D5-6FEEDDFDBBF6}.Release|x86.ActiveCfg = Release|x86
 		{74DE40F8-CC69-462D-B1D5-6FEEDDFDBBF6}.Release|x86.Build.0 = Release|x86
+		{ACF2E3EB-BD50-4492-BA55-4EC84FDDE834}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{ACF2E3EB-BD50-4492-BA55-4EC84FDDE834}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{ACF2E3EB-BD50-4492-BA55-4EC84FDDE834}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{ACF2E3EB-BD50-4492-BA55-4EC84FDDE834}.Debug|x86.ActiveCfg = Debug|x86
+		{ACF2E3EB-BD50-4492-BA55-4EC84FDDE834}.Debug|x86.Build.0 = Debug|x86
+		{ACF2E3EB-BD50-4492-BA55-4EC84FDDE834}.Release|Any CPU.ActiveCfg = Release|x86
+		{ACF2E3EB-BD50-4492-BA55-4EC84FDDE834}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{ACF2E3EB-BD50-4492-BA55-4EC84FDDE834}.Release|Mixed Platforms.Build.0 = Release|x86
+		{ACF2E3EB-BD50-4492-BA55-4EC84FDDE834}.Release|x86.ActiveCfg = Release|x86
+		{ACF2E3EB-BD50-4492-BA55-4EC84FDDE834}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
 	EndGlobalSection
 EndGlobal
